@@ -168,8 +168,8 @@ call s:GuiFor('CursorLineNr', 'NONE', s:light_grey)
 call s:GuiFor('Visual', s:grey)
 call s:GuiFor('VertSplit', s:grey, s:background)
 
-call s:GuiFor('Pmenu', s:grey, s:foreground)
-call s:GuiFor('PmenuSbar', s:red)
+call s:GuiFor('Pmenu', s:pink, s:foreground)
+call s:GuiFor('PmenuSbar', s:grey)
 call s:GuiFor('PmenuSel', 'NONE', s:white)
 call s:GuiFor('PmenuThumb', s:light_grey, s:orange)
 
