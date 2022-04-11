@@ -137,7 +137,7 @@ call s:GuiFor('lispKey', 'NONE', s:blue)
 " --------------------------------------------------
 call s:GuiFor('Comment', 'NONE', s:light_grey, "italic")
 call s:GuiFor('NonText', 'NONE', s:grey)
-call s:GuiFor('LineNr', 'NONE', s:grey)
+call s:GuiFor('LineNr', 'NONE', s:orange)
 call s:GuiFor('StatusLine', '', '', 'reverse')
 call s:GuiFor('StatusLineNC', '', '', 'reverse')
 
@@ -171,7 +171,7 @@ call s:GuiFor('VertSplit', s:grey, s:background)
 call s:GuiFor('Pmenu', s:grey, s:foreground)
 call s:GuiFor('PmenuSbar', s:grey)
 call s:GuiFor('PmenuSel', 'NONE', s:white)
-call s:GuiFor('PmenuThumb', s:orange, s:orange)
+call s:GuiFor('PmenuThumb', s:light_grey, s:orange)
 
 call s:GuiFor('WildMenu', s:cyan, s:background)
 
