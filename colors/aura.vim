@@ -171,7 +171,7 @@ call s:GuiFor('VertSplit', s:grey, s:background)
 call s:GuiFor('Pmenu', s:grey, s:foreground)
 call s:GuiFor('Pmenu', s:grey, s:foreground)
 call s:GuiFor('PmenuSbar', s:grey)
-call s:GuiFor('PmenuSel', s:green', s:white)
+call s:GuiFor('PmenuSel', s:green)
 call s:GuiFor('PmenuThumb', s:light_grey, s:orange)
 
 call s:GuiFor('WildMenu', s:cyan, s:background)
